@@ -2,9 +2,6 @@
 trigger:
 - main
 
-parameters:
-  solution: ''
-
 pool:
   vmImage: 'ubuntu-latest'
 
