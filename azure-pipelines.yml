@@ -15,18 +15,6 @@ steps:
   displayName: 'Run a multi-line script'
 
 - task: FortifySCA@7
-- task: FortifySCA@7
-  inputs:
-    runBuildTranslate: true
-    applicationType: 'dotnet'
-    fortifyProjects: '**\*.sln'
-    fortifyBuildId: '20201224'
-    runFortifyRulepackUpdate: false
-    runFortifyClean: true
-    scaVerbose: false
-    scaDebug: false
-    runFortifyScan: true
-    fortifyScanType: 'Local'
   inputs:
     runBuildTranslate: true
     applicationType: 'dotnet'
